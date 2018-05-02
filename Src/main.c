@@ -123,7 +123,7 @@ int main(void)
 	  	  HAL_RTC_GetDate(&hrtc,&fecha,RTC_FORMAT_BIN);
 	  	  sprintf(tiempo_s,"%d %d %d",tiempo.Hours,tiempo.Minutes,tiempo.Seconds);
 	  	  BSP_LCD_GLASS_DisplayString(tiempo_s);
-	  	  //codigo
+	  	  //codigo2
   }
   /* USER CODE END 3 */
 
